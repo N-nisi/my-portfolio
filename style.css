@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+html,
+body {
+  height: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: snow;
+  background-color: #0cc;
+}
+h2 {
+  text-align: center;
+  color: #300;
+  background-color: #9ff;
+}
+.intro-im {
+  background-color: #9ff;
+}
+main {
+  background-color: #9ff;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.main_photo {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+h3 {
+  background-color: #0cc;
+  color: snow;
+}
+
+/* 写真CSS */
+
+.daigaku {
+  display: flex;
+  width: 50rem;
+  height: 25rem;
+  position: relative;
+  top: 0rem;
+  left: 3rem;
+}
+.gakubu {
+  white-space: nowrap;
+  display: flex;
+  position: relative;
+  top: 26rem;
+  left: -35rem;
+}
+.baito {
+  display: flex;
+  width: 40rem;
+  height: 25rem;
+  position: relative;
+  top: -200px;
+  left: 23rem;
+}
+.name {
+  white-space: nowrap;
+  position: relative;
+  top: 13rem;
+  left: -2rem;
+}
+.yakei {
+  display: flex;
+  width: 38rem;
+  height: 25rem;
+  position: relative;
+  top: -16rem;
+  left: 8rem;
+}
+.hiru {
+  display: flex;
+  width: 38rem;
+  height: 25rem;
+  position: relative;
+  top: -16rem;
+  left: 8rem;
+}
+.ore {
+  display: flex;
+  width: 38rem;
+  height: 25rem;
+  position: relative;
+  top: -66rem;
+  left: 46rem;
+}
+.yama {
+  display: flex;
+  width: 38rem;
+  height: 25rem;
+  position: relative;
+  top: -66rem;
+  left: 46rem;
+}
+.syumi {
+  position: relative;
+  top: -64rem;
+  left: 1rem;
+}
+.ongaku {
+  display: flex;
+  position: relative;
+  top: -28rem;
+  left: 15rem;
+}
+.kuwata {
+  position: relative;
+  top: 10rem;
+  left: -18rem;
+}
+.playlist {
+  display: flex;
+  width: 15rem;
+  height: 25rem;
+  position: relative;
+  top: -25rem;
+  left: 20rem;
+}
+
+/* ボタン */
+.stop {
+  font-size: 1.5rem;
+}
+.saisei {
+  font-size: 1.5rem;
+  color: coral;
+}
